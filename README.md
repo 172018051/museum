@@ -68,10 +68,16 @@
 ![离线方案](https://upload-images.jianshu.io/upload_images/11043770-2eb84ff1e5d3716b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 原型 20%
-![产品架构](https://upload-images.jianshu.io/upload_images/11043770-0b74ffebcd911063.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# [原型文档查看]()   
+
+![产品架构](https://upload-images.jianshu.io/upload_images/11043770-0b74ffebcd911063.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
+   
+### 人脸识别
 
 ![人脸识别](https://upload-images.jianshu.io/upload_images/11043770-ba4b31b0b8f4f645.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+### 数据化管理与监督
 ![数据管理监督](https://upload-images.jianshu.io/upload_images/11043770-866a0d61fc4ab5bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
