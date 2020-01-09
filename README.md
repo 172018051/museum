@@ -2,7 +2,7 @@
 |发布日期|2019/12/xx|   
 |  ----  |  ----  | 
 |产品名称|博物馆人脸识别开柜小程序|     
-|文件状态|编辑中|   
+|文件状态|已完成|   
 |文档所有者|陈咏琴|   
 |设计师|陈咏琴|   
 |开发人员|陈咏琴|   
@@ -69,7 +69,7 @@
 
 ## 原型 20%
 
-# [原型文档查看]()   
+# [原型文档查看](https://172018051.github.io/museum/)   
 
 ![产品架构](https://upload-images.jianshu.io/upload_images/11043770-0b74ffebcd911063.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
    
