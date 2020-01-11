@@ -82,7 +82,8 @@
 
 ## 代码输入、输出   
 ### 人脸识别　　　
-![例子](http://qimg.hxnews.com/2019/0428/1556419954977.jpg)   
+
+![例子](https://upload-images.jianshu.io/upload_images/11043770-ae680d8b7c658050.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 输入   
 > import requests   
 import json
