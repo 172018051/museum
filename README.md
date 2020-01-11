@@ -80,6 +80,28 @@
 ### 数据化管理与监督
 ![数据管理监督](https://upload-images.jianshu.io/upload_images/11043770-866a0d61fc4ab5bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 代码输入、输出   
+### 人脸识别　　　
+![例子](http://qimg.hxnews.com/2019/0428/1556419954977.jpg)   
+### 输入   
+> import requests   
+import json
+subscription_key = 'key'
+assert subscription_key
+face_api_url = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect'
+image_url = 'http://qimg.hxnews.com/2019/0428/1556419954977.jpg'
+headers = {'Ocp-Apim-Subscription-Key': subscription_key}
+params = {
+    'returnFaceId': 'true',
+    'returnFaceLandmarks': 'false',
+    'returnFaceAttributes': 'age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise',
+}
+response = requests.post(face_api_url, params=params,
+                         headers=headers, json={"url": image_url})
+print(json.dumps(response.json()))
+
+### 输出      
+>[{"faceId": "77a3bd37-b63c-419a-97e5-2783a29101c3", "faceRectangle": {"top": 73, "left": 217, "width": 92, "height": 92}, "faceAttributes": {"smile": 0.0, "headPose": {"pitch": -17.5, "roll": -2.8, "yaw": -1.1}, "gender": "male", "age": 43.0, "facialHair": {"moustache": 0.6, "beard": 0.6, "sideburns": 0.1}, "glasses": "NoGlasses", "emotion": {"anger": 0.313, "contempt": 0.004, "disgust": 0.001, "fear": 0.0, "happiness": 0.0, "neutral": 0.677, "sadness": 0.001, "surprise": 0.002}, "blur": {"blurLevel": "low", "value": 0.05}, "exposure": {"exposureLevel": "goodExposure", "value": 0.38}, "noise": {"noiseLevel": "low", "value": 0.0}, "makeup": {"eyeMakeup": false, "lipMakeup": false}, "accessories": [], "occlusion": {"foreheadOccluded": false, "eyeOccluded": false, "mouthOccluded": false}, "hair": {"bald": 0.14, "invisible": false, "hairColor": [{"color": "black", "confidence": 1.0}, {"color": "gray", "confidence": 0.87}, {"color": "brown", "confidence": 0.53}, {"color": "other", "confidence": 0.47}, {"color": "blond", "confidence": 0.02}, {"color": "red", "confidence": 0.0}]}}}]   
 
 
 
